@@ -541,7 +541,6 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  gap: 16px;
   padding: 0;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -556,7 +555,6 @@ img {
   height: 40px;
   font-weight: 500;
   line-height: 1, 5;
-  margin-left: 24px;
 }
 .subscribe-icon {
   fill: #fff;
@@ -686,7 +684,6 @@ img {
 }
 .field-wrap {
   position: relative;
-  margin-bottom: 16px;
 }
 .field-icon {
   position: absolute;
