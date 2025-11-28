@@ -483,8 +483,8 @@ img {
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .your-business-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -725,11 +725,14 @@ img {
   }
   .container.container-team {
     max-width: 1440px;
-    padding-top: 112px;
-    padding-bottom: 112px;
+
     justify-content: flex-start;
     padding-left: 0;
     padding-right: 0;
+  }
+  .section-our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 /* #endregion */
@@ -805,10 +808,11 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-  .container.container-portfolio {
-    padding-top: 112px;
-    padding-bottom: 112px;
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
+
   .portfolio-list {
     gap: 48px 24px;
   }
@@ -1009,7 +1013,7 @@ img {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    gap: 72px 24px;
+    gap: 0 24px;
   }
   .footer-info {
     padding-left: 0;
@@ -1037,23 +1041,25 @@ img {
     margin-right: 24px;
     margin-bottom: 0;
   }
+  .footer-social {
+    margin-bottom: 0;
+  }
+  .page-footer {
+  padding: 100px 0;
 }
 @media screen and (min-width: 1158px) {
   .footer-container {
     display: flex;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1158px;
     align-items: flex-start;
     flex-wrap: nowrap;
     gap: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
     width: 1158px;
   }
-  .page-footer {
-    padding: 0;
-  }
+
   .footer-info {
     margin-right: 120px;
     width: 264px;
@@ -1071,6 +1077,8 @@ img {
   .footer-p {
     width: 264px;
   }
+  .page-footer {
+  padding: 100px 0;
 }
 /* #endregion */
 
