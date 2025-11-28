@@ -486,6 +486,9 @@ img {
     padding-top: 0;
     padding-bottom: 0;
   }
+  .your-business {
+    padding: 188px 0 188px 0;
+  }
 }
 
 /* #endregion */
@@ -1045,7 +1048,8 @@ img {
     margin-bottom: 0;
   }
   .page-footer {
-  padding: 100px 0;
+    padding: 100px 0;
+  }
 }
 @media screen and (min-width: 1158px) {
   .footer-container {
@@ -1065,6 +1069,7 @@ img {
     width: 264px;
     text-align: left;
     padding-top: 0;
+    margin-bottom: 0;
   }
   .subscribe {
     margin: 0;
@@ -1078,7 +1083,8 @@ img {
     width: 264px;
   }
   .page-footer {
-  padding: 100px 0;
+    padding: 100px 0;
+  }
 }
 /* #endregion */
 
